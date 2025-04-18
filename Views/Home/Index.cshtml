@@ -1,0 +1,300 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<!-- masonry
+================================================== -->
+<section class="s-bricks">
+
+    <div class="masonry">
+        <div class="bricks-wrapper h-group">
+
+            <div class="grid-sizer"></div>
+
+            <div class="brick entry featured-grid animate-this">
+                <div class="entry__content">
+
+                    <div class="featured-post-slider">
+                        
+                        <div class="featured-post-slide">
+                            <div class="f-slide">
+                                
+                                <div class="f-slide__background" style="background-image:url('/images/featured-1.jpg');"></div>
+                                <div class="f-slide__overlay"></div>
+
+                                <div class="f-slide__content">
+                                    <ul class="f-slide__meta">
+                                        <li>@DateTime.Now.ToString("MMMM dd, yyyy")</li> 
+                                        <li><a href="#" >Yazar Adı</a></li>
+                                    </ul>	
+
+                                    <h1 class="f-slide__title"><a href="single-standard.html" title="">Minimalist Yaşam Tarzı İçin Pratik Bir Rehber.</a></h1> 
+                                </div>
+
+                            </div> <!-- f-slide -->
+                        </div> <!-- featured-post-slide -->
+
+                        <div class="featured-post-slide">
+                            <div class="f-slide">
+                                
+                                <div class="f-slide__background" style="background-image:url('/images/featured-2.jpg');"></div>
+                                <div class="f-slide__overlay"></div>
+
+                                <div class="f-slide__content">
+                                    <ul class="f-slide__meta">
+                                        <li>@DateTime.Now.ToString("MMMM dd, yyyy")</li>
+                                        <li><a href="#" >Yazar Adı</a></li>
+                                    </ul>
+
+                                    <h1 class="f-slide__title"><a href="single-standard.html" title="">Tasarımlarınızı Negatif Alan ile Geliştirmek</a></h1> 
+                                </div>
+
+                            </div> <!-- f-slide -->
+                        </div> <!-- featured-post-slide -->
+
+                        <div class="featured-post-slide">
+                            <div class="f-slide">
+                                
+                                <div class="f-slide__background" style="background-image:url('/images/featured-3.jpg');"></div>
+                                <div class="f-slide__overlay"></div>
+
+                                <div class="f-slide__content">
+                                    <ul class="f-slide__meta">
+                                        <li>@DateTime.Now.ToString("MMMM dd, yyyy")</li>
+                                        <li><a href="#" >Yazar Adı</a></li>
+                                    </ul>
+
+                                    <h1 class="f-slide__title"><a href="single-standard.html" title="">İlham Veren Müzik Albüm Kapak Tasarımları</a></h1> 
+                                </div>
+
+                            </div> <!-- f-slide -->
+                        </div> <!-- featured-post-slide -->
+
+                    </div> <!-- end feature post slider -->
+                    
+                    <div class="featured-post-nav">
+                        <button class="featured-post-nav__prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.707 17.293L8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z"></path></svg>
+                        </button>
+                        <button class="featured-post-nav__next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.293 17.293l1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
+                        </button>
+                    </div> <!-- featured-post-nav -->
+
+                </div> <!-- end entry content -->
+            </div> <!-- end entry, featured grid -->
+
+            <article class="brick entry format-standard animate-this">
+
+                <div class="entry__thumb">
+                    <a href="single-standard.html" class="thumb-link">
+                        <img src="/images/article-1.jpg" alt="">
+                    </a>
+                </div> <!-- end entry__thumb -->
+
+                <div class="entry__text">
+                    <div class="entry__header">
+
+                        <div class="entry__meta">
+                            <span class="entry__cat-links">
+                                <a href="#">Tasarım</a> 
+                                <a href="#">Fotoğraf</a>
+                            </span>
+                        </div>
+
+                        <h1 class="entry__title"><a href="single-standard.html">Standart Format Blog Yazısı.</a></h1>
+                        
+                    </div>
+                    <div class="entry__excerpt">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper leo eget sapien ultrices vitae facilisis massa dictum. Fusce eu purus felis, eu consequat urna.
+                        </p>
+                    </div>
+                </div> <!-- end entry__text -->
+
+            </article> <!-- end entry -->
+
+            <article class="brick entry format-standard animate-this">
+
+                <div class="entry__thumb">
+                    <a href="single-standard.html" class="thumb-link">
+                        <img src="/images/article-2.jpg" alt="">
+                    </a>
+                </div>  <!-- end entry__thumb -->
+
+                <div class="entry__text">
+                    <div class="entry__header">
+
+                        <div class="entry__meta">
+                            <span class="entry__cat-links">
+                                <a href="#">Sağlık</a>
+                            </span>
+                        </div>
+
+                        <h1 class="entry__title"><a href="single-standard.html">Kafein Hakkında 10 İlginç Bilgi.</a></h1>
+                        
+                    </div>
+                    <div class="entry__excerpt">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper leo eget sapien ultrices vitae facilisis massa dictum. Fusce eu purus felis, eu consequat urna.
+                        </p>
+                    </div>
+                </div> <!-- end entry__text -->
+
+            </article> <!-- end entry -->
+
+            <article class="brick entry format-gallery animate-this">
+
+                <div class="entry__thumb slider">
+                    <div class="slider__slides">
+                        <div class="slider__slide">
+                            <img src="/images/article-3.jpg" alt=""> 
+                        </div>
+                        <div class="slider__slide">
+                            <img src="/images/article-4.jpg" alt="">
+                        </div>
+                        <div class="slider__slide">
+                            <img src="/images/article-5.jpg" alt="">
+                        </div>
+                    </div>
+                </div> <!-- end entry__thumb -->
+
+                <div class="entry__text">
+                    <div class="entry__header">
+                        
+                        <div class="entry__meta">
+                            <span class="entry__cat-links">
+                                <a href="#">Seyahat</a>
+                            </span>
+                        </div>
+
+                        <h1 class="entry__title"><a href="single-gallery.html">Dünyanın En Güzel Plajları.</a></h1>
+                        
+                    </div>
+                    <div class="entry__excerpt">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper leo eget sapien ultrices vitae facilisis massa dictum. Fusce eu purus felis, eu consequat urna.
+                        </p>
+                    </div>
+                </div> <!-- end entry__text -->
+                
+            </article> <!-- end entry -->
+
+            <article class="brick entry format-standard animate-this">
+
+                <div class="entry__thumb">
+                    <a href="single-standard.html" class="thumb-link">
+                        <img src="/images/article-6.jpg" alt="">
+                    </a>
+                </div> <!-- end entry__thumb -->
+
+                <div class="entry__text">
+                    <div class="entry__header">
+                        
+                        <div class="entry__meta">
+                            <span class="entry__cat-links">
+                                <a href="#">İlişkiler</a>
+                            </span>
+                        </div>
+
+                        <h1 class="entry__title"><a href="single-standard.html">İlişkilerde İletişimin Önemi.</a></h1>
+                            
+                    </div>
+                    <div class="entry__excerpt">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper leo eget sapien ultrices vitae facilisis massa dictum. Fusce eu purus felis, eu consequat urna.
+                        </p>
+                    </div>
+                </div> <!-- end entry__text -->
+                
+            </article> <!-- end entry -->
+
+            <article class="brick entry format-standard animate-this">
+
+                <div class="entry__thumb">
+                    <a href="single-standard.html" class="thumb-link">
+                        <img src="/images/article-7.jpg" alt="">
+                    </a>
+                </div> <!-- end entry__thumb -->
+
+                <div class="entry__text">
+                    <div class="entry__header">
+                        
+                        <div class="entry__meta">
+                            <span class="entry__cat-links">
+                                <a href="#">İş & Kariyer</a>
+                            </span>
+                        </div>
+
+                        <h1 class="entry__title"><a href="single-standard.html">Uzaktan Çalışma İçin İpuçları.</a></h1>
+                            
+                    </div>
+                    <div class="entry__excerpt">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper leo eget sapien ultrices vitae facilisis massa dictum. Fusce eu purus felis, eu consequat urna.
+                        </p>
+                    </div>
+                </div> <!-- end entry__text -->
+                
+            </article> <!-- end entry -->
+
+            <article class="brick entry format-video animate-this">
+
+                <div class="entry__thumb video-image">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" data-lity>
+                        <img src="/images/article-8.jpg" alt="">
+                    </a>
+                </div> <!-- end entry__thumb -->
+
+                <div class="entry__text">
+                    <div class="entry__header">
+                        
+                        <div class="entry__meta">
+                            <span class="entry__cat-links">
+                                <a href="#">Teknoloji</a>
+                            </span>
+                        </div>
+
+                        <h1 class="entry__title"><a href="single-video.html">2023'ün En İyi Akıllı Telefonları.</a></h1>
+                            
+                    </div>
+                    <div class="entry__excerpt">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper leo eget sapien ultrices vitae facilisis massa dictum. Fusce eu purus felis, eu consequat urna.
+                        </p>
+                    </div>
+                </div> <!-- end entry__text -->
+                
+            </article> <!-- end entry -->
+
+        </div> <!-- end brick-wrapper -->
+
+    </div> <!-- end masonry -->
+
+    <div class="row">
+        <div class="column large-12">
+            <nav class="pgn">
+                <ul>
+                    <li>
+                        <span class="pgn__prev" href="#0">
+                            Önceki
+                        </span>
+                    </li>
+                    <li><a class="pgn__num" href="#0">1</a></li>
+                    <li><span class="pgn__num current">2</span></li>
+                    <li><a class="pgn__num" href="#0">3</a></li>
+                    <li><a class="pgn__num" href="#0">4</a></li>
+                    <li><a class="pgn__num" href="#0">5</a></li>
+                    <li><span class="pgn__num dots">…</span></li>
+                    <li><a class="pgn__num" href="#0">8</a></li>
+                    <li>
+                        <a class="pgn__next" href="#0">
+                            Sonraki
+                        </a>
+                    </li>
+                </ul>
+            </nav> <!-- end pgn -->
+        </div> <!-- end column -->
+    </div> <!-- end row -->
+
+</section> <!-- end s-bricks -->
